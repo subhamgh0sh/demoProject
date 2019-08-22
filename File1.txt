@@ -5,6 +5,7 @@ class myClass {
 		System.out.println(str);
 	}
 	public static void main() {
-		myMethod("Welcome to GIT");
+		myClass obj = new myClass();
+		obj.myMethod("Welcome to GIT");
 	}
 }
